@@ -1,0 +1,8 @@
+{
+  "account_id": "ACCOUNT_ID_HERE",
+  "account_name": "ACCOUNT_NAME_HERE",
+  "environment": "nonprod",
+  "app_id": "APP_ID_HERE",
+  "manager": "MANAGER_NAME_HERE",
+  "enabled": true
+}

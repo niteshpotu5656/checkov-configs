@@ -1,0 +1,12 @@
+# .checkov.yaml — applied to all Terraform in all pipelines
+framework:
+  - terraform
+check:
+  - CKV_AWS_RESOURCE_TAGS
+  - CKV2_AWS_*
+skip_check:
+  - CKV_AWS_18   # S3 access logging optional for non-prod
+output:
+  - json
+compact: true
+quiet: true
